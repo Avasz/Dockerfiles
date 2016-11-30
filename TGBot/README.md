@@ -1,16 +1,16 @@
-#TGBot Dockerfile
+# TGBot Dockerfile
 
 
 This docker file runs a bot for telegram written in nodejs. 
 Github link for original bot: https://github.com/jmendeth/node-botgram.git
 
-###Reasons for this Dockerfile:
+### Reasons for this Dockerfile:
 --------------------------------
 This bot runs directly in the system, so it might be unsafe if used in group chats because of abuses it might get.  
 I was in need of linux access in telegram groups, so running this bot on top of alpine linux container was a great solution.  
 
 
-###Usage:
+### Usage:
 ---------
 1. Create a bot with botfather
 2. Get auth token of the bot from botfather
